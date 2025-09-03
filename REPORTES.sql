@@ -1,3 +1,5 @@
+USE LogisticaFeria;
+
 -- REPORTE 1 (Cantidad de visitantes de la feria.)
 SELECT f.nombre AS nombreFeria,
     COUNT(DISTINCT v.id) AS totalVisitantes
